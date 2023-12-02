@@ -1,0 +1,51 @@
+/* src/pages/sobre/index.css     */
+/* Estilos comuns para todos os tamanhos de tela */
+.main-content {
+  flex: 1;
+  padding: 10px;
+  background-color: var(--cor-terciaria);
+}
+
+.about-section {
+  margin-bottom: 20px;
+}
+
+/* Estilos globais para todos os h1 e p dentro da main-content */
+.main-content h1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: var(--cor-primaria);
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  font-size: 25px;
+  color: var(--cor-secundaria);
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Media Queries para tamanhos específicos de tela */
+@media screen and (max-width: 768px) {
+  /* Aplique estilos específicos para telas menores ou iguais a 768px */
+  .main-content h1 {
+    font-size: 24px;
+  }
+
+  .main-content p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Aplique estilos específicos para telas menores ou iguais a 480px */
+  .main-content h1 {
+    font-size: 20px;
+  }
+
+  .main-content p {
+    font-size: 16px;
+  }
+}

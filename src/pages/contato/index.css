@@ -1,0 +1,25 @@
+/* src/pages/contato/index.css */
+.main-content.contact-content {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-terciaria); /* Usando a cor terciária definida no :root */
+    padding: 20px;
+  }
+  
+  .contact-section {
+    text-align: center;
+  }
+  
+  .contact-heading {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .contact-info {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  

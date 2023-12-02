@@ -1,0 +1,10 @@
+/* src/components/Header/index.css      */
+div.meu-header{
+    padding: 20px;
+    text-align: center;
+    background-color: var(--cor-primaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}

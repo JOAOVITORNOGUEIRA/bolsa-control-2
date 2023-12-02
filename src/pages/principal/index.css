@@ -1,0 +1,100 @@
+/* src/pages/principal/index.css */
+body {
+    background-color: var(--cor-terciaria);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    padding: 20px;
+}
+
+h1 {
+    color: var(--cor-primaria);
+}
+
+.caixa-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-right: 10px;
+}
+
+.info-item h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.info-item p {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--cor-primaria);
+}
+
+.adicionar-conta {
+    margin-top: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.label-input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.label-input-group label {
+    margin-right: 10px;
+}
+
+.tipo {
+    color: var(--cor-primaria); /* Define a cor do texto */
+}
+
+.input-group input,
+.input-group select {
+    width: 10%;
+    flex: 1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Alterações para o "Fluxo Salvo" */
+a {
+    color: var(--cor-secundaria); /* Alteração para cor-secundaria */
+    text-decoration: none; /* Remover sublinhado */
+}
